@@ -11,7 +11,7 @@ var transporter = nodemailer.createTransport({
 
 var mailOptions = {
   from: 'ad.clinicamedica@gmail.com',
-  to: 'manuel.escobarhz@gmail.com', 'e_oliveros96@hotmail.com',
+  to: 'manuel.escobarhz@gmail.com, e_oliveros96@hotmail.com',
   subject: 'Ya es 4 20',
   text: 'Y probablemente te lo perdiste...'
 }
