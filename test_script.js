@@ -11,9 +11,9 @@ var transporter = nodemailer.createTransport({
 
 var mailOptions = {
   from: 'ad.clinicamedica@gmail.com',
-  to: 'manuel.escobarhz@gmail.com, e_oliveros96@hotmail.com, nelsonmlglez@gmail.com, titeoliveros@hotmail.com',
-  subject: 'Ya es 4 20',
-  text: 'Y probablemente te lo perdiste...'
+  to: 'manuel.escobarhz@gmail.com, e_oliveros96@hotmail.com, titeoliveros@hotmail.com',
+  subject: 'Prueba de 4 20 automatico',
+  text: 'TETSING'
 }
 
 transporter.sendMail(mailOptions, function(err, ifno){
